@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Emily An | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Inter:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="video-intro" class="video-intro">
+      <video id="intro-video" autoplay muted playsinline preload="auto">
+        <source src="./assets/titlescreen.mp4" type="video/mp4" />
+        <source src="./assets/titlescreen.mov" type="video/quicktime" />
+      </video>
+      <div id="flash-transition" class="flash-transition"></div>
+    </div>
+
+    <div id="intro-overlay" class="overlay">
+      <div class="title-screen" role="img" aria-label="Retro game-inspired title screen">
+        <div class="title-sky"></div>
+        <div class="title-hills"></div>
+        <div class="title-river"></div>
+        <div class="title-screen-ui">
+          <p class="title-kicker">The Legend of</p>
+          <h1 class="title-main">Emily</h1>
+          <p class="title-sub">The Portfolio Quest: A Beginning</p>
+          <p class="title-prompt" id="title-prompt">Press Space to Start</p>
+        </div>
+      </div>
+    </div>
+
+    <header class="hero">
+      <p class="pixel-label">Level 1: Build with purpose</p>
+      <h1>Hi, I'm Emily An</h1>
+      <p>
+        I design and build full-stack and iOS apps that solve practical,
+        real-world problems.
+      </p>
+      <a href="#projects" class="cta">Explore My Quests</a>
+    </header>
+
+    <main>
+      <section id="about" class="card">
+        <h2>About Me</h2>
+        <p>
+          I'm a B.S. Computer Science student at the University of Virginia
+          (GPA: 3.8, Class of 2029). I enjoy turning ideas into polished tools,
+          especially apps that improve safety, sustainability, and everyday
+          decision-making.
+        </p>
+      </section>
+
+      <section id="skills" class="card">
+        <h2>Skill Tree</h2>
+        <div class="grid two-col">
+          <div>
+            <h3>Languages</h3>
+            <p>Java, JavaScript, Swift, C, Assembly, MATLAB</p>
+          </div>
+          <div>
+            <h3>Frameworks & Tools</h3>
+            <p>React, Next.js, Node.js, Firebase, Git, REST APIs, Deep3D</p>
+          </div>
+          <div>
+            <h3>Technologies</h3>
+            <p>
+              MongoDB, Plaid API, Google Maps API, OCR (Tesseract), Raspberry
+              Pi, AI tools (Cursor, Claude)
+            </p>
+          </div>
+          <div>
+            <h3>Certifications & Awards</h3>
+            <p>Microsoft Azure Fundamentals, AP Capstone Award</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="card">
+        <h2>Featured Quests</h2>
+        <div class="grid">
+          <article class="project">
+            <h3>Deep3D Stereoscopic Video Conversion App</h3>
+            <p>
+              Designed a hybrid hardware-software system for UVA Cang Lab to
+              generate biologically accurate 3D stimuli for tree shrew vision
+              research.
+            </p>
+          </article>
+          <article class="project">
+            <h3>Gold Rush (Budget Management App)</h3>
+            <p>
+              Built a budgeting app with transaction syncing through Plaid API
+              using React, Node.js, JavaScript, and Firebase.
+            </p>
+          </article>
+          <article class="project">
+            <h3>CrisisCart (Grocery Supply Tracker)</h3>
+            <p>
+              Created personalized crisis supply planning with crowd-sourced
+              stock updates and location-based store discovery.
+            </p>
+          </article>
+          <article class="project">
+            <h3>SaveRe (Sustainable Recipe Scanner)</h3>
+            <p>
+              Estimated expiration dates, tracked groceries, and suggested
+              recipes using Next.js, MongoDB, Gemini API, and Tesseract OCR.
+            </p>
+          </article>
+          <article class="project">
+            <h3>LiteLine (Blue Light Locator)</h3>
+            <p>
+              Built a safety-focused web app that detects nearest blue light
+              stations and provides route guidance with Google Maps API.
+            </p>
+          </article>
+          <article class="project">
+            <h3>UpToEarth & Ludis (iOS)</h3>
+            <p>
+              Designed Swift apps for climate news and sports facility discovery
+              to improve access to useful local information.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section id="experience" class="card">
+        <h2>Experience</h2>
+        <ul>
+          <li>
+            <strong>Mathnasium, Math Tutor (2023-2025):</strong> Tutored
+            students across levels up to Calculus and maintained progress logs.
+          </li>
+          <li>
+            <strong>Chicken Salad Chick, Team Member (2024-2025):</strong>
+            Delivered customer service and supported daily operations and
+            closing.
+          </li>
+          <li>
+            <strong>Girls Who Code Club, Executive Team (2023-2025):</strong>
+            Taught Java/Scratch lessons and grew membership by 20%.
+          </li>
+          <li>
+            <strong>Hope Chinese School, Teaching Assistant (2022-2025):</strong>
+            Supported student learning in Chinese vocabulary and math.
+          </li>
+        </ul>
+      </section>
+    </main>
+
+    <footer class="card footer">
+      <h2>Contact</h2>
+      <p>Email: emilyan722007@gmail.com</p>
+      <p>Phone: 703-677-5615</p>
+      <p>Location: McLean, VA</p>
+      <p>Add your LinkedIn, Devpost, and GitHub URLs here.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
